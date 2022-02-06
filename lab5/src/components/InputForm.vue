@@ -180,7 +180,7 @@
                     'country_id=1&' +
                     'city_id='+ this.idLocation[0].id+
                     '&count=10&' +
-                    'access_token=16bd660e592e5759f2a2cdccd3562b4c8613fb4d03cb49ed0012b38f57f4878a9108d6d50d6bc7c6624c9&' +
+                    'access_token=8c4207a095f73d7ecea73c7041c94000275926e3cbd2919290b5adf3bce41dcba52caf1599f0fa22d0126&' +
                     'v=5.131')
                     .then(response=>this.info.VkUniversities=response.data.response.items)
             }
