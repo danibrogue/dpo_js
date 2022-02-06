@@ -135,11 +135,9 @@
 </template>
 
 <script>
-    import BasicInputField from "./BasicInputField.vue";
     import axios from 'axios';
     export default{
         name: "InputForm",
-        components: {BasicInputField},
         props: {
             info: Object
         },
